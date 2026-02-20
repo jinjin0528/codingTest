@@ -11,7 +11,7 @@ public class bronze_10039 {
 
         for(int i=0;i<5;i++){
             int score = Integer.parseInt(br.readLine());
-            sum+=Math.max(score,40);
+            sum+=Math.max(score,40);    // 점수가 40보다 작으면 40, 40보다 크면 점수 그대로
         }
         System.out.println(sum/5);
     }
