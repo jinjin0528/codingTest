@@ -19,5 +19,9 @@ public class bronze_2752 {
         for (int i = 0; i < 3; i++) {
             System.out.print(arr[i] + " ");
         }
+//      내림차순
+//        for (int i = 2; i >= 0; i--) {
+//            System.out.print(arr[i] + " ");
+//        }
     }
 }
