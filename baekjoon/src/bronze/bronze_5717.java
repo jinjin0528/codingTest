@@ -12,7 +12,7 @@ public class bronze_5717 {
             StringTokenizer st = new StringTokenizer(br.readLine(), " ");
             int M = Integer.parseInt(st.nextToken());
             int F = Integer.parseInt(st.nextToken());
-            if(M==0 && F==0) break;
+            if(M==0 || F==0) break;
             int sum = M+F;
             System.out.println(sum);
 
