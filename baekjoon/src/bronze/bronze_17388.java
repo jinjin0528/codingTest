@@ -17,7 +17,6 @@ public class bronze_17388 {
         if(sum>=100){
             System.out.println("OK");
         }else{
-            if(sum<100){
                 int min = Math.min(S,Math.min(K,H));
                 if(min == S){
                     System.out.println("Soongsil");
@@ -26,7 +25,6 @@ public class bronze_17388 {
                 }else{
                     System.out.println("Hanyang");
                 }
-            }
         }
     }
 }
