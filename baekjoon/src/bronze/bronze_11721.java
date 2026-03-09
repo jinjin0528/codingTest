@@ -10,7 +10,7 @@ public class bronze_11721 {
         String str = br.readLine();
         for(int i=0; i<str.length(); i++) { // length길이 만큼 반복
             System.out.print(str.charAt(i)); // char로 하나하나 프린트
-            if (i % 10 == 9) { // 만약 인덱스 번호가 9가 되면 줄바꿈
+            if (i % 10 == 9) {
                 System.out.println();
             }
         }
