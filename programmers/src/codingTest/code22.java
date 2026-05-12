@@ -15,10 +15,10 @@ public class code22 {
             num_list[i] = Integer.parseInt(input[i]);
         }
         Arrays.sort(num_list);
-        int m = 5;
-        int[] answer = new int[num_list.length - m];
-        for(int i = m;i<num_list.length;i++){
-            answer[i-m] = num_list[i];
+//        int m = 5;
+        int[] answer = new int[num_list.length - 5];
+        for(int i = 5;i<num_list.length;i++){
+            answer[i-5] = num_list[i];
         }
         System.out.println(Arrays.toString(answer));
     }
